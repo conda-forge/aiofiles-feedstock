@@ -3,7 +3,7 @@ About aiofiles
 
 Home: https://github.com/Tinche/aiofiles
 
-Package license: Apache 2.0
+Package license: Apache-2.0
 
 Feedstock license: BSD 3-Clause
 
@@ -14,9 +14,8 @@ Summary: File support for asyncio
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/aiofiles-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/aiofiles-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/aiofiles-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/aiofiles-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/aiofiles-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/aiofiles-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/aiofiles-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/aiofiles-feedstock)
 
 Current release info
 ====================
