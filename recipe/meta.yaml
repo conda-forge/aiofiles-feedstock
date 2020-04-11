@@ -1,6 +1,6 @@
 {% set name = "aiofiles" %}
-{% set version = "0.4.0" %}
-{% set sha256 = "021ea0ba314a86027c166ecc4b4c07f2d40fc0f4b3a950d1868a0f2571c2bbee" %}
+{% set version = "0.5.0" %}
+{% set sha256 = "98e6bcfd1b50f97db4980e182ddd509b7cc35909e903a8fe50d8849e02d815af" %}
 
 package:
   name: {{ name|lower }}
@@ -13,8 +13,8 @@ source:
 
 build:
   noarch: python
-  number: 1001
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vv"
+  number: 0
+  script: {{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vv
 
 requirements:
   host:
@@ -29,7 +29,7 @@ test:
 
 about:
   home: https://github.com/Tinche/aiofiles
-  summary: "File support for asyncio"
+  summary: File support for asyncio
   license: Apache-2.0
   license_file: LICENSE
   license_family: Apache
