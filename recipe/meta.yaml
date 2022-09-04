@@ -1,5 +1,5 @@
 {% set name = "aiofiles" %}
-{% set version = "0.8.0" %}
+{% set version = "22.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8334f23235248a3b2e83b2c3a78a22674f39969b96397126cc93664d9a901e59
+  sha256: 9107f1ca0b2a5553987a94a3c9959fe5b491fdf731389aa5b7b1bd0733e32de6
 
 build:
   noarch: python
