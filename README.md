@@ -145,4 +145,5 @@ Feedstock Maintainers
 
 * [@carlodri](https://github.com/carlodri/)
 * [@kszucs](https://github.com/kszucs/)
+* [@xylar](https://github.com/xylar/)
 
