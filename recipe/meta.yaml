@@ -1,5 +1,5 @@
 {% set name = "aiofiles" %}
-{% set version = "24.1.0" %}
+{% set version = "25.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/aiofiles-{{ version }}.tar.gz
-  sha256: 22a075c9e5a3810f0c2e48f3008c94d68c65d763b9b03857924c99e57355166c
+  sha256: a8d728f0a29de45dc521f18f07297428d56992a742f0cd2701ba86e44d23d5b2
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
